@@ -1,0 +1,43 @@
+#head{
+    width: 100%;
+}
+
+thead{
+    text-align: center;
+    background: #ff2827;
+}
+
+
+
+td{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    background: #494949;
+    color: white;
+}
+
+
+
+td:hover{
+    background:#ffd93f;
+}
+
+.day{
+    background: #222222;
+}
+
+.day:hover{
+    background:#222222;
+}
+
+
+.unselectable{
+    background: gray;
+}
+
+.unselectable:hover{
+    background: gray;
+}
+
+/* Auteur : Théo Baumgartner */

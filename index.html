@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Théo Baumgartner - Calendrier</title>
+    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div>
+    <table id="calendar">
+        <colgroup span="7"></colgroup>
+        <tr>
+            <th colspan="7" id="head">
+                <button id="prev" class="ui white button">⬅</button>
+                <h1 id="currMonth"></h1>
+                <button id="next" class="ui white button">➡</button>
+            </th>
+        </tr>
+        <tr>
+            <td class="day">
+                Lun
+            </td>
+            <td class="day">
+                Mar
+            </td>
+            <td class="day">
+                Mer
+            </td>
+            <td class="day">
+                Jeu
+            </td>
+            <td class="day">
+                Ven
+            </td>
+            <td class="day">
+                Sam
+            </td>
+            <td class="day">
+                Dim
+            </td>
+        </tr>
+        <tr id="line1">
+
+        </tr>
+        <tr id="line2">
+
+        </tr>
+        <tr id="line3">
+
+        </tr>
+        <tr id="line4">
+
+        </tr>
+        <tr id="line5">
+
+        </tr>
+        <tr id="line6">
+
+        </tr>
+    </table>
+    <p id="displayDate"></p>
+    <input type="hidden" id="inputDate" name="DateCompet">
+    <!-- Auteur : Théo Baumgartner -->
+</div>
+</body>
+</html>
